@@ -54,5 +54,5 @@ x-va-button supports the following attributes:
 
 *overflowPadding* - padding for overflow "window" for element
 
-*href* - link, <a href></a> analog.
+*href* - link, a tag href analog.
 
