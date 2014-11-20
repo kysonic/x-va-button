@@ -19,8 +19,9 @@ Polymer('x-va-button', {
         this.$.wrapper.style.height = this.clone.clientHeight + this.overflowPadding + 'px';
         this.$.wrapper.style.width = this.clone.clientWidth + this.overflowPadding + 'px';
         // Directions params
+        var correction = (this.$.wrapper.clientHeight-this.clone.clientHeight)-(this.$.wrapper.clientHeight-this.inner.clientHeight);
         var cloneStartTop = this.direction == 'up' ? this.clone.clientHeight + 1 + "px" : -(this.clone.clientHeight * 2 + 1) + "px";
-        var cloneEndTop = -(this.clone.clientHeight - 5) + "px";
+        var cloneEndTop = -(this.clone.clientHeight + correction) + "px";
         var innerEndTop = this.direction == 'up' ? -(this.clone.clientHeight + 1) + "px" : this.clone.clientHeight + "px";
         //Animations
         this.clone.style.top = cloneStartTop;
