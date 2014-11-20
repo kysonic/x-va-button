@@ -1,6 +1,32 @@
 {
   "name": "x-va-button",
-  "private": false,
+  "main": "x-va-button.js",
   "version": "0.0.1",
-  "homepage": "https://github.com/kysonic/x-va-button"
+  "homepage": "https://github.com/kysonic/x-va-button",
+  "authors": [
+    "Anton Miroshnichenko"
+  ],
+  "description": "Polymer vertical-animation button component.",
+  "moduleType": [
+    "globals"
+  ],
+  "keywords": [
+    "Polymer",
+    "Web-components",
+    "Buttons",
+    "Animation",
+    "x-va-button"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "polymer": "~0.5.1"
+  }
 }

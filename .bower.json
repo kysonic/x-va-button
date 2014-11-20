@@ -1,9 +1,0 @@
-{
-  "name": "x-va-button",
-  "private": true,
-  "version": "0.0.1",
-  "homepage": "https://github.com/kysonic/x-va-button",
-  "_source": "git://github.com/kysonic/x-va-button.git",
-  "_target": "^0.0.1",
-  "_originalSource": "kysonic/x-va-button"
-}
