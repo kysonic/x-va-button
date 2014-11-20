@@ -1,0 +1,18 @@
+:host {
+  display: block;
+  cursor: pointer;
+  & ::content #inner {
+    position: relative;
+    top: 0px;
+    transition: top .2s ease-in;
+  }
+  & #clone-inner {
+    position: relative;
+    transition: top .2s ease-in;
+  }
+}
+#wrapper {
+  display: block;
+  overflow: hidden;
+}
+

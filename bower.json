@@ -1,0 +1,7 @@
+{
+  "name": "x-va-button#gh-pages",
+  "private": true,
+  "dependencies": {
+    "x-va-button": "kysonic/x-va-button#master"
+  }
+}
