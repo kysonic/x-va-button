@@ -1,0 +1,20 @@
+/*Typo*/
+/*Colors*/
+/*Metrik*/
+:host {
+  display: block;
+  cursor: pointer;
+}
+:host ::content #inner {
+  position: relative;
+  top: 0px;
+  transition: top 0.2s ease-in;
+}
+:host #clone-inner {
+  position: relative;
+  transition: top 0.2s ease-in;
+}
+#wrapper {
+  display: block;
+  overflow: hidden;
+}
