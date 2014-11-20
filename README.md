@@ -52,7 +52,7 @@ x-va-button supports the following attributes:
 
 *direction* - up or down
 
-*overflowPadding* - padding for overflow "window" for element
+*overflowPadding* - padding for overflow "window" of element
 
 *href* - link, a tag href analog.
 
