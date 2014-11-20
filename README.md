@@ -51,6 +51,8 @@ Run browser and over mouse on x-va-button element.
 x-va-button supports the following attributes:
 
 *direction* - up or down
+
 *overflowPadding* - padding for overflow "window" for element
+
 *href* - link, <a href></a> analog.
 
