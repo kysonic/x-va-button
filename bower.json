@@ -11,10 +11,10 @@
     "globals"
   ],
   "keywords": [
-    "Polymer",
-    "Web-components",
-    "Buttons",
-    "Animation",
+    "polymer",
+    "web-components",
+    "buttons",
+    "animation",
     "x-va-button"
   ],
   "license": "MIT",
